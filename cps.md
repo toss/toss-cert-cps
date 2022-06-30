@@ -1,8 +1,8 @@
-# 토스 전자서명인증업무준칙 Version 1.2.1
+# 토스 전자서명인증업무준칙 Version 1.2.2
 
-공고일: 2022. 01. 13.
+공고일: 2022. 06. 30.
 
-시행일: 2022. 01. 17.
+시행일: 2022. 07. 01.
 
 # 1 소개
 
@@ -25,7 +25,7 @@
     - 인증기관의 전자서명생성정보에 대한 인증 등 전자서명인증업무 수행
 2. 토스 인증기관(Toss CA)
     - 가입자의 신원확인
-    - 가입자 인증서 발급, 재발급, 폐지 업무
+    - 가입자 인증서 발급, 갱신발급, 재발급, 폐지 업무
     - 기타 인증기관으로서 필요하다고 인정되는 업무
 
 전자서명인증업무의 이용주체로 가입자, 가입신청자(회사로부터 인증서를 발급받으려는 자), 이용자가 있습니다.
@@ -49,6 +49,21 @@
   </tr>
 </thead>
 <tbody>
+  <tr>
+    <td>1.2.2</td>
+    <td>2022. 07. 01.</td>
+    <td>
+    - 1.3.2.2 등록대행기관 목록 내용 추가<br>
+    - 1.4.2 인증서 이용범위 및 용도 내용 보완<br>
+    - 3.2.3 개인 신원확인 내용 보완<br>
+    - 3.3 인증서 갱신발급·재발급 및 변경 시 신원확인 내용 보완<br>
+    - 4.6 인증서 갱신발급 내용 보완<br> 
+    - 4.7 인증서 재발급 내용 보완<br>
+    - 5.5.1 보존되는 기록의 유형 내용 보완 <br> 
+    - 부록 내용 보완 <br>  
+    - 문서 전반적인 오탈자 수정 및 내용 보완<br>
+    </td>
+  </tr>
   <tr>
     <td>1.2.1</td>
     <td>2022. 01. 17.</td>
@@ -192,7 +207,7 @@
 
 1. 안전한 전자서명인증체계의 구축 및 운영
 2. 서비스 제공과 관련된 가입자의 신원확인 업무
-3. 인증서 발급, 재발급 및 폐지 등의 업무
+3. 인증서 발급, 갱신발급, 재발급 및 폐지 등의 업무
 4. 준칙, 서비스 약관 및 인증서 유효성 확인 정보 등의 공고
 5. 인증서 유효성 확인 서비스
 6. 등록대행기관의 지정과 관리 및 운영
@@ -241,6 +256,10 @@
 5. 가입자 정보의 보호: 등록대행기관은 개인정보 보호법 및 정보통신망 이용촉진 및 정보보호 등에 관한 법률(이하 ""정보 통신망법"이라 함)에 따라, 등록대행업무 수행 중 취득한 가입자의 개인정보를 보호하고 자료에 대한 보안을 유지할 의무가 있습니다.
 6. 책임과 배상: 등록대행기관은 본 인증업무준칙 상의 의무를 위반함으로써 회사, 가입자, 또는 이용자에게 손해를 입힌 경우 그 손해에 대해 배상하여야 할 책임이 있습니다.
 
+#### 1.3.2.2 등록대행기관 목록
+
+회사의 등록대행기관으로는 토스뱅크 주식회사, 토스증권 주식회사가 있습니다.
+
 ### 1.3.3 가입자
 
 가입자는 전자서명생성정보에 대하여 전자서명인증사업자인 회사로부터 전자서명인증을 받은 자를 말합니다.
@@ -250,7 +269,7 @@
 가입자는 다음과 같은 책임과 의무를 가집니다.
 
 1. 정확한 정보 제공: 가입자는 다음 사항에 대하여 정확한 정보를 회사 및 등록대행기관에 제공하여야 합니다. 또한 회사 및 등록대행기관이 신원확인을 위하여 관련 서류를 요청하는 경우 가입자는 성실히 협조하여야 합니다.
-    - 인증서의 발급·재발급·폐지 신청
+    - 인증서의 발급·갱신발급·재발급·폐지 신청
     - 가입자 정보 변경 등
 2. 인증서의 용도 내 사용: 가입자는 정당한 이용범위 및 용도에 맞게 인증서를 사용하여야 합니다. 그리고 인증서를 사용하여 전자서명을 제공할 때에는, 당해 인증서에 포함된 전자서명검증정보에 합치하는 전자서명생성정보를 사용하여야 합니다.
 3. 전자서명생성정보 안전조치: 가입자는 전자서명생성정보가 분실·훼손 또는 도난·유출되었거나 안전하지 않다고 인지하는 경우, 지체 없이 회사 및 등록대행기관에 관련사실을 통보하여 회사가 해당 인증서를 폐지할 수 있도록 협조하여야 합니다.
@@ -325,10 +344,10 @@
     <td>토스인증서<sup>*</sup></td>
     <td>개인</td>
     <td>
-    - 본인인증 및 전자서명이 필요한 일반전자거래 서비스 이용<br>
-    - 금융기관이 제공하는 서비스 이용<br>
-    - 정부민원 및 공공기관이 제공하는 서비스 이용<br>
-    - 기타 회사 또는 이용기관이 제공하는 각종 서비스 이용<br>
+    전자서명 및 본인확인 관련 제반업무<br>
+    - 금융, 공공, 정부민원 전자서명 관련 업무<br>
+    - 기타 회사 또는 이용기관 제공 서비스 전자서명 관련 업무<br>
+    - 본인확인 관련 제반업무<br> 
     </td>
     <td>발급일로부터 3년</td>
   </tr>
@@ -488,24 +507,9 @@
 
 ### 3.2.3 개인 신원확인
 
-회사는 개인이 인증서를 신규 발급받는 경우 법 제14조 및 동법 시행령 제9조, 동법 시행규칙 제5조에 근거하여 아래의 방법으로 신원을 확인합니다.
+회사 및 등록대행기관은 개인이 인증서를 신규 발급받는 경우 법 제14조 및 동법 시행령 제9조, 동법 시행규칙 제5조에 근거하여, 금융위원회의 비대면 실명확인 가이드라인에 의한 대면에 준하는 비대면 실명확인 방법으로 가입신청자의 신원을 확인하며, 필요시 관련 서류를 징구할 수 있습니다.
 
-1. 휴대폰 본인확인(SMS)
-    1. 가입신청자는 본인 명의 휴대폰을 이용하여 본인확인을 진행합니다.
-    2. 가입신청자의 정보로서 이름과 생년월일, 전화번호와 통신사 등의 정보를 입력하고, 본인확인기관으로 지정된 이동통신사에서 해당 전화번호의 단말로 전송한 인증코드를 입력함으로써 해당 전화번호의 명의자 정보가 가입신청자가 입력한 정보와 일치하는지 확인하고, 동시에 해당 단말을 가입신청자가 소유하고 있음을 확인합니다.
-2. 카드 본인확인(ARS)
-    1. 가입신청자는 본인 명의 체크카드 또는 신용카드를 이용하여 본인확인을 진행합니다.
-    2. 가입신청자의 정보로서 이름과 생년월일, 카드사에 등록된 휴대폰 번호와 카드 번호 일부 등의 정보를 입력하고, 본인확인기관으로 지정된 카드사에서 발신한 ARS 전화에 카드 비밀번호 일부를 입력함으로써 해당 카드의 명의자 정보가 가입신청자가 입력한 정보와 일치하는지 확인하고, 동시에 해당 휴대폰 번호를 가입신청자가 소유하고 있음을 확인합니다.
-3. 계좌 점유인증
-    1. 휴대폰 또는 카드 본인확인 이후 추가 인증 방법으로 계좌 점유인증을 수행할 수 있습니다.
-    2. 휴대폰 또는 카드 본인확인을 통해 회사가 획득한 실명정보와 가입신청자가 입력한 계좌의 명의자 정보가 일치하는 경우 해당 계좌로 1원을 송금합니다. 이 때 입금자명에 회사가 생성한 3자리 숫자로 된 인증코드를 삽입합니다.
-    3. 가입신청자가 계좌로 전송된 인증코드를 정확히 입력했는지 확인하여, 본인 명의의 계좌가 개설되어 있고 해당 계좌 내역에 접근이 가능함을 확인합니다.
-4. 신분증 확인
-    1. 휴대폰 또는 카드 본인확인 및 계좌 점유인증 이후 실지명의 기반 신원확인을 위해 신분증 사본을 확인할 수 있습니다.
-    2. 앱을 통한 사진촬영 등의 방식으로 주민등록증, 운전면허증, 또는 외국인등록증 등 신분증(실명확인증표) 사본을 회사에 제출합니다.
-    3. 휴대폰 또는 카드 본인확인 및 계좌 점유인증을 통해 회사가 획득한 실명정보와 가입자가 제출한 신분증 사본에서 광학문자인식(OCR) 등을 통해 획득한 실지명의가 일치하는지 확인하여, 금융실명거래 및 비밀보장에 관한 법률 제2조제4호의 실지명의 기반으로 개인 신원을 확인합니다.
-
-등록대행기관은 금융실명거래 및 비밀보장에 관한 법률 제2조제4호에 따른 실지명의가 확인된 전자금융거래 가입자가 인증서를 발급받는 경우 정보통신망을 통하여 신원을 확인합니다.
+등록대행기관은 금융실명거래 및 비밀보장에 관한 법률 제2조제4호에 따른 실지명의가 확인된 전자금융거래 가입자가 인증서를 발급받는 경우 정보통신망을 통하여 신원을 확인합니다. 
 
 ### 3.2.4 미확인 가입자 정보
 
@@ -519,17 +523,17 @@
 
 해당사항 없음
 
-## 3.3 인증서 재발급 및 변경 시 신원확인
+## 3.3 인증서 갱신발급·재발급 및 변경 시 신원확인
 
-### 3.3.1 일반적인 재발급에 대한 신원확인
+### 3.3.1 인증서 갱신발급 시 신원확인
 
-가입자의 기존 전자서명생정정보가 유효할 때 회사 및 등록대행기관은 인증서 재발급에 대한 가입자 신원확인을 인증서 재발급 신청의 가입자 전자서명으로 합니다. 이때, 가입자는 PIN 번호 또는 생체정보 인증 등 전자서명생성정보 접근통제 수단을 이용하여 전자서명을 생성함으로써 전자서명생성정보 소유를 증명할 수 있습니다.
+회사는 인증서 갱신발급 시 가입자 신원확인을 인증서 갱신발급 신청에 대한 가입자의 전자서명으로 합니다. 갱신발급 대상 가입자 인증서는 유효해야 하며 가입자는 해당 인증서에 합치하는 기존 전자서명생성정보를 소유하고 있어야 합니다. 가입자는 PIN 번호 또는 생체정보 인증 등 전자서명생성정보 접근통제 수단을 이용하여 전자서명을 생성함으로써 기존 전자서명생성정보 소유를 증명할 수 있습니다. 신규 전자서명생성정보의 소유 증명 방법은 '3.2.1 전자서명생성정보의 소유 증명 방법' 항목을 준용합니다.
 
-인증서 재발급 시 가입자의 기존 등록정보가 변경된 경우 회사는 필요에 따라 변경정보에 대한 증빙자료를 요구할 수 있습니다.
+가입자의 인증서 갱신발급 신청 시 가입자의 기존 등록정보가 변경된 경우 회사는 필요에 따라 변경정보에 대한 증빙자료를 요구할 수 있습니다.
 
-### 3.3.2 폐지 후 재발급에 대한 신원확인
+### 3.3.2 인증서 재발급 시 신원확인
 
-가입자의 기존 전자서명생성정보가 폐지된 후 가입자 인증서 재발급 시 신원확인 및 인증 방법은 '3.2 인증서 신규 발급 시 신원확인' 항목과 동일합니다.
+가입자 인증서 재발급 시 신원확인은 '3.2 인증서 신규 발급 시 신원확인' 항목을 준용합니다.
 
 ## 3.4 인증서 효력정지·효력회복·폐지 시 신원확인
 
@@ -542,23 +546,23 @@
 
 ## 4.1 인증서 발급 신청
 
-### 4.1.1 인증서 발급 신청
+### 4.1.1 인증서 발급 신청 주체
 
 가입신청자가 앱을 이용하여 인증서 발급 신청 절차를 시작함으로써 발급 신청 처리가 시작됩니다.
 
-### 4.1.2 인증서 신청 절차 및 책임
+### 4.1.2 인증서 발급 신청 절차 및 책임
 
-가입자 인증서 신청 절차 및 책임은 아래와 같습니다.
+가입자 인증서 발급 신청 절차 및 책임은 아래와 같습니다.
 
-1. 인증서 신청 절차
+1. 인증서 발급 신청 절차
     1. 가입신청자는 서비스 약관 및 개인정보 수집·이용에 동의합니다.
     2. 가입신청자는 앱을 이용하여 '4.2.1 신원확인 및 인증 수행' 항목에 명시된 신원확인 절차를 수행합니다.
     3. 가입신청자는 전자서명생성정보의 접근수단으로 사용할 PIN 번호 또는 생체정보를 등록합니다.
     4. 가입신청자는 가입신청자의 단말에서 키 쌍을 생성하고 '3.2.1 전자서명생성정보의 소유 증명 방법' 항목에 명시된 정보를 회사로 제출합니다.
 
-2. 인증서 신청 책임
-    1. 회사는 가입자 인증서 신청의 유효성을 검증하고, 인증서 신청 프로세스를 수립하고 관리할 책임이 있습니다.
-    2. 가입신청자는 인증서 신청 시 정확한 정보를 제공할 책임이 있습니다.
+2. 인증서 발급 신청 책임
+    1. 회사는 가입자 인증서 발급 신청의 유효성을 검증하고, 인증서 발급 신청 프로세스를 수립하고 관리할 책임이 있습니다.
+    2. 가입신청자는 인증서 발급 신청 시 정확한 정보를 제공할 책임이 있습니다.
 
 ## 4.2 인증서 발급 신청 처리
 
@@ -583,7 +587,7 @@
 8. 그 외 부정한 방법으로 가입자 인증서를 발급한 사실이 드러나거나 본 항 각 호의 사유가 있는 것으로 의심되는 경우
 9. 기타 가입신청자의 귀책사유로 인하여 승낙이 불가능하거나 해당 신청이 법령, 서비스 약관 및 기타 회사가 정한 제반 사항에 배치되는 경우
 
-### 4.2.3 인증서 신청 처리 소요시간
+### 4.2.3 인증서 발급 신청 처리 소요시간
 
 가입신청자의 발급 신청은 가입신청자가 필요한 절차를 완료한 즉시 처리됩니다.
 
@@ -629,50 +633,50 @@
 
 ## 4.6 인증서 갱신발급
 
-### 4.6.1 인증서 갱신 기준
+### 4.6.1 인증서 갱신발급 요건
 
-회사는 인증서 갱신 기능을 제공하지 않습니다. 필요 시 가입자는 해당 인증서를 폐지하고 신규 인증서를 발급 받습니다.
+인증서 갱신발급은 새로운 키 쌍에 대하여 유효기간이 갱신된 동일한 종류의 새로운 인증서를 발급하는 것을 말합니다. 가입자는 인증서의 유효기간이 만료되기 3개월 전부터 유효기간 만료일까지 인증서 갱신발급을 신청할 수 있습니다. 갱신발급된 인증서는 기존 인증서의 유효기간을 승계하고 해당 인증서의 종류에 따라 '1.4.2 인증서 이용범위 및 용도' 항목에 명시된 기간만큼 유효기간이 연장됩니다.
 
-### 4.6.2 인증서 갱신 신청
+### 4.6.2 인증서 갱신발급 신청 주체
 
-해당사항 없음
+가입자가 앱을 이용하여 인증서 갱신 신청 절차를 시작함으로써 갱신발급 신청 처리가 시작됩니다.
 
-### 4.6.3 인증서 갱신 신청 절차
+### 4.6.3 인증서 갱신발급 신청 절차
 
-해당사항 없음
+가입자 인증서 갱신발급 신청 절차는 아래와 같습니다.
+
+1. 가입자는 가입자의 단말에서 새로운 키 쌍을 생성하고 '3.2.1 전자서명생성정보의 소유 증명' 항목에 명시된 정보를 회사로 제출합니다.
+1. 회사는 '3.3.1 인증서 갱신발급 시 신원확인' 항목에 명시된 방법으로 가입자의 신원을 확인합니다.
 
 ### 4.6.4 인증서 갱신 발급 공지
 
-해당사항 없음
+'4.3.2 인증서 발급 사실 공지' 항목을 참조합니다.
 
 ### 4.6.5 인증서 갱신 수락 행위
 
-해당사항 없음
+'4.4.1 인증서 수령 절차' 항목을 참조합니다.
 
 ### 4.6.6 갱신된 인증서 공고
 
-해당사항 없음
+'4.4.2 인증기관의 인증서 공개' 항목을 참조합니다.
 
 ### 4.6.7 다른 개인 및 법인에 인증서 갱신 공지
 
-해당사항 없음
+'4.4.3 다른 개인 또는 법인에 인증서 발급 공지' 항목을 참조합니다.
 
 ## 4.7 인증서 재발급
 
-### 4.7.1 인증서 재발급 기준
+### 4.7.1 인증서 재발급 요건
 
-인증서 재발급은 가입자가 자신의 인증서를 폐지하였거나 유효기간이 경과한 경우 또는 전자서명생성정보의 노출, 손상 등이 우려되는 경우 새로운 인증서를 다시 발급 받는 것을 말하며 절차는 다음과 같습니다. 또한, 가입자가 재발급된 인증서를 수령하는 방법은 신규발급 시와 동일합니다.
+인증서 재발급은 가입자가 자신의 인증서를 폐지 또는 분실하였거나 전자서명생성정보의 노출, 손상 등이 우려되어 새로운 인증서를 다시 발급 받는 것을 말합니다. 재발급된 인증서의 유효기간은 신규 인증서 발급과 동일합니다.
 
-1. 재발급 요청한 가입자의 신원을 '3.3 인증서 재발급 및 변경 시 신원확인' 항목에 명시된 방법으로 확인합니다.
-2. 가입자가 등록한 PIN 번호 또는 생체정보로 인증을 진행합니다. 인증에 성공하면 인증서를 재발급하고 프로세스를 종료합니다.
+### 4.7.2 인증서 재발급 신청 주체
 
-### 4.7.2 인증서 재발급 신청
-
-'4.1.1 인증서 발급 신청' 항목을 참조합니다.
+가입자가 앱을 이용하여 인증서 재발급 신청 절차를 시작함으로써 재발급 신청 처리가 시작됩니다.
 
 ### 4.7.3 인증서 재발급 신청 절차
 
-'4.2 인증서 발급 신청 처리' 항목을 참조합니다.
+'4.1.2 인증서 신청 절차 및 책임' 항목을 참조합니다.
 
 ### 4.7.4 가입자에게 인증서 재발급 공지
 
@@ -1076,8 +1080,10 @@ OCSP 응답 메시지는 실시간으로 갱신되며 유효기간은 지정되�
 
 회사가 보존하는 기록의 유형은 다음과 같습니다.
 
-1. '5.4.1 감사 기록의 유형' 항목에 정의된 유형
-2. 기타 전자서명인증시스템 운영 및 관리의 중요 활동 등
+1. 가입자 인증서 관리에 관한 기록(인증서 발급·폐지 등)
+2. 가입자 인증서 이용에 관한 기록(전자서명 생성·이용·전달 등)
+3. 인증기관 전자서명검증정보 생성·접근·백업·파기에 관한 기록
+4. 기타 전자서명인증시스템 운영 및 관리의 중요 활동 등
 
 ### 5.5.2 보존기록 보존기간
 
@@ -1332,7 +1338,7 @@ RSA 키의 경우 회사는 RSA 키의 공개 지수값이 3 이상의 홀수임
 3. 침입탐지시스템의 데이터베이스를 주기적으로 갱신하고, 네트워크관리시스템을 이용하여 전자서명인증시스템을 지속적으로 모니터링합니다.
 4. 침입차단 및 침입탐지시스템에 대한 논리적인 접근통제를 설정합니다.
 
-## 6.8 시점확인서비스 보호조치
+## 6.8 시점확인 서비스 보호조치
 
 회사는 안정적인 시점확인 서비스를 위하여 다음과 같은 기준으로 보호하고 있습니다.
 
@@ -1976,7 +1982,7 @@ RSA 키의 경우 회사는 RSA 키의 공개 지수값이 3 이상의 홀수임
 ___
 # 부록 A 프로파일
 
-## A.1 최상위인증기관 인증서 프로파일
+## A.1 가입자 인증서 프로파일
 
 ### A.1.1 기본필드
 
@@ -1995,367 +2001,6 @@ ___
     <td>Version </td>
     <td>INTEGER </td>
     <td>V3</td>
-  </tr>
-  <tr>
-    <td>2</td>
-    <td>Serial Number </td>
-    <td>INTEGER </td>
-    <td>고유일련번호</td>
-  </tr>
-  <tr>
-    <td>3</td>
-    <td>Signature</td>
-    <td>OID</td>
-    <td>1.2.840.113549.1.1.11<br>(sha256WithRSAEncryption)</td>
-  </tr>
-  <tr>
-    <td rowspan="3">4</td>
-    <td>Issuer</td>
-    <td></td>
-    <td rowspan="3">CN=Toss Root CA1,<br>OU=Toss Cert<br>O=Viva Republica Inc<br>C=KR</td>
-  </tr>
-  <tr>
-    <td>&nbsp;&nbsp;type </td>
-    <td>OID</td>
-  </tr>
-  <tr>
-    <td>&nbsp;&nbsp;value </td>
-    <td>printableString 또는 utf8String</td>
-  </tr>
-  <tr>
-    <td rowspan="3">5</td>
-    <td>Validity</td>
-    <td></td>
-    <td>20년</td>
-  </tr>
-  <tr>
-    <td>&nbsp;&nbsp;notBefore </td>
-    <td>UTCTime</td>
-    <td></td>
-  </tr>
-  <tr>
-    <td>&nbsp;&nbsp;notAfter </td>
-    <td>UTCTime</td>
-    <td></td>
-  </tr>
-  <tr>
-    <td rowspan="3">6</td>
-    <td>Subject</td>
-    <td></td>
-    <td rowspan="3">CN=Toss Root CA1,<br>OU=Toss Cert,<br>O=Viva Republica Inc,<br>C=KR</td>
-  </tr>
-  <tr>
-    <td>&nbsp;&nbsp;type</td>
-    <td>OID</td>
-  </tr>
-  <tr>
-    <td>&nbsp;&nbsp;value</td>
-    <td>printableString 또는 utf8String</td>
-  </tr>
-  <tr>
-    <td rowspan="3">7</td>
-    <td>Subject Public Key Info</td>
-    <td></td>
-    <td></td>
-  </tr>
-  <tr>
-    <td>&nbsp;&nbsp;algorithm </td>
-    <td>OID </td>
-    <td>RSA (4096 Bits)</td>
-  </tr>
-  <tr>
-    <td>&nbsp;&nbsp;subjectPublicKey </td>
-    <td>BIT STRING</td>
-    <td></td>
-  </tr>
-  <tr>
-    <td>8</td>
-    <td>Extensions </td>
-    <td>Extensions </td>
-    <td>확장필드 참고</td>
-  </tr>
-</tbody>
-</table>
-
-### A.1.2 확장필드
-
-<table>
-<thead>
-  <tr>
-    <th># </th>
-    <th>필드명 </th>
-    <th>ASN.1 type </th>
-    <th>설명</th>
-  </tr>
-</thead>
-<tbody>
-  <tr>
-    <td>1</td>
-    <td>Subject Key Identifier</td>
-    <td>OCTET STRING</td>
-    <td>subjectPublicKey의 hash 값</td>
-  </tr>
-  <tr>
-    <td>2</td>
-    <td>Key Usage </td>
-    <td>BIT STRING</td>
-    <td>Digital Signature, Non-Repudiation, Certificate Signing, Off-line CRL Signing, CRL Signing (c6)</td>
-  </tr>
-  <tr>
-    <td rowspan="3">3</td>
-    <td>Basic Constraints</td>
-    <td></td>
-    <td rowspan="3">Subject Type=CA<br>Path Length Constraint=0</td>
-  </tr>
-  <tr>
-    <td>&nbsp;&nbsp;cA </td>
-    <td>TRUE</td>
-  </tr>
-  <tr>
-    <td>&nbsp;&nbsp;pathLenConstraint</td>
-    <td>INTEGER</td>
-  </tr>
-</tbody>
-</table>
-
-## A.2 인증기관 인증서 프로파일
-
-### A.2.1 기본필드
-
-<table>
-<thead>
-  <tr>
-    <th># </th>
-    <th>필드명 </th>
-    <th>ASN.1 type </th>
-    <th>설명</th>
-  </tr>
-</thead>
-<tbody>
-  <tr>
-    <td>1</td>
-    <td>Version </td>
-    <td>INTEGER </td>
-    <td>V3</td>
-  </tr>
-  <tr>
-    <td>2</td>
-    <td>Serial Number </td>
-    <td>INTEGER </td>
-    <td>고유일련번호</td>
-  </tr>
-  <tr>
-    <td>3</td>
-    <td>Signature</td>
-    <td>OID</td>
-    <td>1.2.840.113549.1.1.11<br>(sha256WithRSAEncryption)</td>
-  </tr>
-  <tr>
-    <td rowspan="3">4</td>
-    <td>Issuer</td>
-    <td></td>
-    <td rowspan="3">CN=Toss Root CA1,<br>OU=Toss Cert,<br>O=Viva Republica Inc,<br>C=KR</td>
-  </tr>
-  <tr>
-    <td>&nbsp;&nbsp;type </td>
-    <td>OID</td>
-  </tr>
-  <tr>
-    <td>&nbsp;&nbsp;value </td>
-    <td>printableString 또는 utf8String</td>
-  </tr>
-  <tr>
-    <td rowspan="3">5</td>
-    <td>Validity</td>
-    <td></td>
-    <td>10년</td>
-  </tr>
-  <tr>
-    <td>&nbsp;&nbsp;notBefore </td>
-    <td>UTCTime</td>
-    <td></td>
-  </tr>
-  <tr>
-    <td>&nbsp;&nbsp;notAfter </td>
-    <td>UTCTime</td>
-    <td></td>
-  </tr>
-  <tr>
-    <td rowspan="3">6</td>
-    <td>Subject</td>
-    <td></td>
-    <td rowspan="3">CN=Toss CA1,<br>OU=Toss Cert,<br>O=Viva Republica Inc,<br>C=KR</td>
-  </tr>
-  <tr>
-    <td>&nbsp;&nbsp;type</td>
-    <td>OID</td>
-  </tr>
-  <tr>
-    <td>&nbsp;&nbsp;value</td>
-    <td>printableString 또는 utf8String</td>
-  </tr>
-  <tr>
-    <td rowspan="3">7</td>
-    <td>Subject Public Key Info</td>
-    <td></td>
-    <td></td>
-  </tr>
-  <tr>
-    <td>&nbsp;&nbsp;algorithm </td>
-    <td>OID </td>
-    <td>RSA (4096 Bits)</td>
-  </tr>
-  <tr>
-    <td>&nbsp;&nbsp;subjectPublicKey </td>
-    <td>BIT STRING</td>
-    <td></td>
-  </tr>
-  <tr>
-    <td>8</td>
-    <td>Extensions </td>
-    <td>Extensions </td>
-    <td>확장필드 참고</td>
-  </tr>
-</tbody>
-</table>
-
-### A.2.2 확장필드
-
-<table>
-<thead>
-  <tr>
-    <th># </th>
-    <th>필드명 </th>
-    <th>ASN.1 type </th>
-    <th>설명</th>
-  </tr>
-</thead>
-<tbody>
-  <tr>
-    <td rowspan="4">1</td>
-    <td>Authority Key Identifier</td>
-    <td></td>
-    <td></td>
-  </tr>
-  <tr>
-    <td>&nbsp;&nbsp;KeyIdentifier</td>
-    <td>OCTET STRING</td>
-    <td>최상위인증기관 인증서의 Subject Key Identifier</td>
-  </tr>
-  <tr>
-    <td>&nbsp;&nbsp;authorityCertIssuer</td>
-    <td>GeneralNames</td>
-    <td>최상위인증기관 인증서의 Subject</td>
-  </tr>
-  <tr>
-    <td>&nbsp;&nbsp;authorityCertSerialNumber </td>
-    <td>INTEGER</td>
-    <td>최상위인증기관 인증서의 Serial Number</td>
-  </tr>
-  <tr>
-    <td>2</td>
-    <td>Subject Key Identifier</td>
-    <td>OCTET STRING</td>
-    <td>subjectPublicKey의 hash 값</td>
-  </tr>
-  <tr>
-    <td>3</td>
-    <td>Key Usage </td>
-    <td>BIT STRING</td>
-    <td>Digital Signature, Non-Repudiation, Certificate Signing, Off-line CRL Signing, CRL Signing (c6)</td>
-  </tr>
-  <tr>
-    <td rowspan="9">4</td>
-    <td>Certificate Policy</td>
-    <td></td>
-    <td rowspan="9">[1]Certificate Policy:<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Policy Identifier=모든 발급 정책<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[1,1]Policy Qualifier Info:<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Policy Qualifier Id=CPS<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Qualifier:<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;http://ca.cert.toss.im/cps.html<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[1,2]Policy Qualifier Info:<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Policy Qualifier Id=사용자 알림<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Qualifier:<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Notice Text=This is Toss certificate</td>
-  </tr>
-  <tr>
-    <td>&nbsp;&nbsp;policyIdentifier </td>
-    <td>OID</td>
-  </tr>
-  <tr>
-    <td>&nbsp;&nbsp;policyQualifiers</td>
-    <td></td>
-  </tr>
-  <tr>
-    <td>&nbsp;&nbsp;&nbsp;&nbsp;PolicyQualifierId</td>
-    <td>OID</td>
-  </tr>
-  <tr>
-    <td>&nbsp;&nbsp;&nbsp;&nbsp;Qualifier </td>
-    <td></td>
-  </tr>
-  <tr>
-    <td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;CPSuri </td>
-    <td>IA5String</td>
-  </tr>
-  <tr>
-    <td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;UserNotice </td>
-    <td></td>
-  </tr>
-  <tr>
-    <td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;SEQUENCE </td>
-    <td></td>
-  </tr>
-  <tr>
-    <td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;ExplicitText</td>
-    <td>BMPString </td>
-  </tr>
-  <tr>
-    <td rowspan="3">5</td>
-    <td>Basic Constraints</td>
-    <td></td>
-    <td rowspan="3">Subject Type=CA<br>Path Length Constraint=0</td>
-  </tr>
-  <tr>
-    <td>&nbsp;&nbsp;cA </td>
-    <td>TRUE</td>
-  </tr>
-  <tr>
-    <td>&nbsp;&nbsp;pathLenConstraint</td>
-    <td>INTEGER</td>
-  </tr>
-  <tr>
-    <td rowspan="4">6</td>
-    <td>CrlDistributionPoint</td>
-    <td></td>
-    <td rowspan="4">[1]CRL Distribution Point<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Distribution Point Name:<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Full Name:<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;URL=http://root-ca.cert.toss.im/crl/toss_crl_dp0000.crl </td>
-  </tr>
-  <tr>
-    <td>&nbsp;&nbsp;distributionPoint</td>
-    <td>DistributionPointName</td>
-  </tr>
-  <tr>
-    <td>&nbsp;&nbsp;reasons</td>
-    <td>ReasongFlags</td>
-  </tr>
-  <tr>
-    <td>&nbsp;&nbsp;cRLIssuer</td>
-    <td>GeneralNames</td>
-  </tr>
-</tbody>
-</table>
-
-## A.3 가입자 인증서 프로파일
-
-### A.3.1 기본필드
-
-<table>
-<thead>
-  <tr>
-    <th># </th>
-    <th>필드명 </th>
-    <th>ASN.1 type </th>
-    <th>설명</th>
-  </tr>
-</thead>
-<tbody>
-  <tr>
-    <td>1</td>
-    <td>Version </td>
-    <td>INTEGER </td>
-    <td></td>
   </tr>
   <tr>
     <td>2</td>
@@ -2438,7 +2083,7 @@ ___
 </tbody>
 </table>
 
-### A.3.2 확장필드
+### A.1.2 확장필드
 
 <table>
 <thead>
@@ -2552,6 +2197,456 @@ ___
   <tr>
     <td>&nbsp;&nbsp;accessLocation</td>
     <td>GeneralName</td>
+  </tr>
+</tbody>
+</table>
+
+## A.2 인증서 유효성 확인 서비스(OCSP) 인증서 프로파일
+
+### A.2.1 기본필드
+
+<table>
+<thead>
+  <tr>
+    <th># </th>
+    <th>필드명 </th>
+    <th>ASN.1 type </th>
+    <th>설명</th>
+  </tr>
+</thead>
+<tbody>
+  <tr>
+    <td>1</td>
+    <td>Version </td>
+    <td>INTEGER </td>
+    <td>V3</td>
+  </tr>
+  <tr>
+    <td>2</td>
+    <td>Serial Number </td>
+    <td>INTEGER </td>
+    <td>고유일련번호</td>
+  </tr>
+  <tr>
+    <td>3</td>
+    <td>Signature</td>
+    <td>OID</td>
+    <td>1.2.840.113549.1.1.11<br>(sha256WithRSAEncryption)</td>
+  </tr>
+  <tr>
+    <td rowspan="3">4</td>
+    <td>Issuer</td>
+    <td></td>
+    <td rowspan="3">CN=Toss Root CA1,<br>OU=Toss Cert,<br>O=Viva Republica Inc,<br>C=KR</td>
+  </tr>
+  <tr>
+    <td>&nbsp;&nbsp;type </td>
+    <td>OID</td>
+  </tr>
+  <tr>
+    <td>&nbsp;&nbsp;value </td>
+    <td>printableString 또는 utf8String</td>
+  </tr>
+  <tr>
+    <td rowspan="3">5</td>
+    <td>Validity</td>
+    <td></td>
+    <td>5년</td>
+  </tr>
+  <tr>
+    <td>&nbsp;&nbsp;notBefore </td>
+    <td>UTCTime</td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>&nbsp;&nbsp;notAfter </td>
+    <td>UTCTime</td>
+    <td></td>
+  </tr>
+  <tr>
+    <td rowspan="3">6</td>
+    <td>Subject</td>
+    <td></td>
+    <td rowspan="3">CN=Toss OCSP1,<br>OU=Toss Cert,<br>O=Viva Republica Inc,<br>C=KR</td>
+  </tr>
+  <tr>
+    <td>&nbsp;&nbsp;type</td>
+    <td>OID</td>
+  </tr>
+  <tr>
+    <td>&nbsp;&nbsp;value</td>
+    <td>printableString 또는 utf8String</td>
+  </tr>
+  <tr>
+    <td rowspan="3">7</td>
+    <td>Subject Public Key Info</td>
+    <td></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>&nbsp;&nbsp;algorithm </td>
+    <td>OID </td>
+    <td>RSA (2048 Bits)</td>
+  </tr>
+  <tr>
+    <td>&nbsp;&nbsp;subjectPublicKey </td>
+    <td>BIT STRING</td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>8</td>
+    <td>Extensions </td>
+    <td>Extensions </td>
+    <td>확장필드 참고</td>
+  </tr>
+</tbody>
+</table>
+
+### A.2.2 확장필드
+
+<table>
+<thead>
+  <tr>
+    <th># </th>
+    <th>필드명 </th>
+    <th>ASN.1 type </th>
+    <th>설명</th>
+  </tr>
+</thead>
+<tbody>
+  <tr>
+    <td rowspan="4">1</td>
+    <td>Authority Key Identifier</td>
+    <td></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>&nbsp;&nbsp;KeyIdentifier</td>
+    <td>OCTET STRING</td>
+    <td>최상위인증기관 인증서의 Subject Key Identifier</td>
+  </tr>
+  <tr>
+    <td>&nbsp;&nbsp;authorityCertIssuer</td>
+    <td>GeneralNames</td>
+    <td>최상위인증기관 인증서의 Subject</td>
+  </tr>
+  <tr>
+    <td>&nbsp;&nbsp;authorityCertSerialNumber </td>
+    <td>INTEGER</td>
+    <td>최상위인증기관 인증서의 Serial Number</td>
+  </tr>
+  <tr>
+    <td>2</td>
+    <td>Subject Key Identifier</td>
+    <td>OCTET STRING</td>
+    <td>subjectPublicKey의 hash 값</td>
+  </tr>
+  <tr>
+    <td>3</td>
+    <td>Key Usage </td>
+    <td>BIT STRING</td>
+    <td>Digital Signature, Non-Repudiation (c0)</td>
+  </tr>
+  <tr>
+    <td rowspan="9">4</td>
+    <td>Certificate Policy</td>
+    <td></td>
+    <td rowspan="9">[1]Certificate Policy:<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Policy Identifier=모든 발급 정책<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[1,1]Policy Qualifier Info:<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Policy Qualifier Id=CPS<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Qualifier:<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;http://ca.cert.toss.im/cps.html<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[1,2]Policy Qualifier Info:<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Policy Qualifier Id=사용자 알림<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Qualifier:<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Notice Text=This is Toss certificate</td>
+  </tr>
+  <tr>
+    <td>&nbsp;&nbsp;policyIdentifier </td>
+    <td>OID</td>
+  </tr>
+  <tr>
+    <td>&nbsp;&nbsp;policyQualifiers</td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>&nbsp;&nbsp;&nbsp;&nbsp;PolicyQualifierId</td>
+    <td>OID</td>
+  </tr>
+  <tr>
+    <td>&nbsp;&nbsp;&nbsp;&nbsp;Qualifier </td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;CPSuri </td>
+    <td>IA5String</td>
+  </tr>
+  <tr>
+    <td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;UserNotice </td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;SEQUENCE </td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;ExplicitText</td>
+    <td>BMPString </td>
+  </tr>
+  <tr>
+    <td rowspan="3">5</td>
+    <td>Basic Constraints</td>
+    <td></td>
+    <td rowspan="3">Subject Type=CA<br>Path Length Constraint=0</td>
+  </tr>
+  <tr>
+    <td>&nbsp;&nbsp;cA </td>
+    <td>TRUE</td>
+  </tr>
+  <tr>
+    <td>&nbsp;&nbsp;pathLenConstraint</td>
+    <td>INTEGER</td>
+  </tr>
+  <tr>
+    <td>6</td>
+    <td>Extended Key Usage</td>
+    <td>OID</td>
+    <td>OCSP 서명 (1.3.6.1.5.5.7.3.9)</td>
+  </tr>
+  <tr>
+    <td rowspan="4">7</td>
+    <td>CrlDistributionPoint</td>
+    <td></td>
+    <td rowspan="4">[1]CRL Distribution Point<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Distribution Point Name:<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Full Name:<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;URL=http://root-ca.cert.toss.im/crl/toss_crl_dp0000.crl </td>
+  </tr>
+  <tr>
+    <td>&nbsp;&nbsp;distributionPoint</td>
+    <td>DistributionPointName</td>
+  </tr>
+  <tr>
+    <td>&nbsp;&nbsp;reasons</td>
+    <td>ReasongFlags</td>
+  </tr>
+  <tr>
+    <td>&nbsp;&nbsp;cRLIssuer</td>
+    <td>GeneralNames</td>
+  </tr>
+</tbody>
+</table>
+
+## A.3 시점확인 서비스(TSA) 인증서 프로파일
+
+### A.3.1 기본필드
+
+<table>
+<thead>
+  <tr>
+    <th># </th>
+    <th>필드명 </th>
+    <th>ASN.1 type </th>
+    <th>설명</th>
+  </tr>
+</thead>
+<tbody>
+  <tr>
+    <td>1</td>
+    <td>Version </td>
+    <td>INTEGER </td>
+    <td>V3</td>
+  </tr>
+  <tr>
+    <td>2</td>
+    <td>Serial Number </td>
+    <td>INTEGER </td>
+    <td>고유일련번호</td>
+  </tr>
+  <tr>
+    <td>3</td>
+    <td>Signature</td>
+    <td>OID</td>
+    <td>1.2.840.113549.1.1.11<br>(sha256WithRSAEncryption)</td>
+  </tr>
+  <tr>
+    <td rowspan="3">4</td>
+    <td>Issuer</td>
+    <td></td>
+    <td rowspan="3">CN=Toss Root CA1,<br>OU=Toss Cert,<br>O=Viva Republica Inc,<br>C=KR</td>
+  </tr>
+  <tr>
+    <td>&nbsp;&nbsp;type </td>
+    <td>OID</td>
+  </tr>
+  <tr>
+    <td>&nbsp;&nbsp;value </td>
+    <td>printableString 또는 utf8String</td>
+  </tr>
+  <tr>
+    <td rowspan="3">5</td>
+    <td>Validity</td>
+    <td></td>
+    <td>5년</td>
+  </tr>
+  <tr>
+    <td>&nbsp;&nbsp;notBefore </td>
+    <td>UTCTime</td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>&nbsp;&nbsp;notAfter </td>
+    <td>UTCTime</td>
+    <td></td>
+  </tr>
+  <tr>
+    <td rowspan="3">6</td>
+    <td>Subject</td>
+    <td></td>
+    <td rowspan="3">CN=Toss TSA1,<br>OU=Toss Cert,<br>O=Viva Republica Inc,<br>C=KR</td>
+  </tr>
+  <tr>
+    <td>&nbsp;&nbsp;type</td>
+    <td>OID</td>
+  </tr>
+  <tr>
+    <td>&nbsp;&nbsp;value</td>
+    <td>printableString 또는 utf8String</td>
+  </tr>
+  <tr>
+    <td rowspan="3">7</td>
+    <td>Subject Public Key Info</td>
+    <td></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>&nbsp;&nbsp;algorithm </td>
+    <td>OID </td>
+    <td>RSA (2048 Bits)</td>
+  </tr>
+  <tr>
+    <td>&nbsp;&nbsp;subjectPublicKey </td>
+    <td>BIT STRING</td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>8</td>
+    <td>Extensions </td>
+    <td>Extensions </td>
+    <td>확장필드 참고</td>
+  </tr>
+</tbody>
+</table>
+
+### A.3.2 확장필드
+
+<table>
+<thead>
+  <tr>
+    <th># </th>
+    <th>필드명 </th>
+    <th>ASN.1 type </th>
+    <th>설명</th>
+  </tr>
+</thead>
+<tbody>
+  <tr>
+    <td rowspan="4">1</td>
+    <td>Authority Key Identifier</td>
+    <td></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>&nbsp;&nbsp;KeyIdentifier</td>
+    <td>OCTET STRING</td>
+    <td>최상위인증기관 인증서의 Subject Key Identifier</td>
+  </tr>
+  <tr>
+    <td>&nbsp;&nbsp;authorityCertIssuer</td>
+    <td>GeneralNames</td>
+    <td>최상위인증기관 인증서의 Subject</td>
+  </tr>
+  <tr>
+    <td>&nbsp;&nbsp;authorityCertSerialNumber </td>
+    <td>INTEGER</td>
+    <td>최상위인증기관 인증서의 Serial Number</td>
+  </tr>
+  <tr>
+    <td>2</td>
+    <td>Subject Key Identifier</td>
+    <td>OCTET STRING</td>
+    <td>subjectPublicKey의 hash 값</td>
+  </tr>
+  <tr>
+    <td>3</td>
+    <td>Key Usage </td>
+    <td>BIT STRING</td>
+    <td>Digital Signature, Non-Repudiation (c0)</td>
+  </tr>
+  <tr>
+    <td rowspan="9">4</td>
+    <td>Certificate Policy</td>
+    <td></td>
+    <td rowspan="9">[1]Certificate Policy:<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Policy Identifier=모든 발급 정책<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[1,1]Policy Qualifier Info:<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Policy Qualifier Id=CPS<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Qualifier:<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;http://ca.cert.toss.im/cps.html<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[1,2]Policy Qualifier Info:<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Policy Qualifier Id=사용자 알림<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Qualifier:<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Notice Text=This is Toss certificate</td>
+  </tr>
+  <tr>
+    <td>&nbsp;&nbsp;policyIdentifier </td>
+    <td>OID</td>
+  </tr>
+  <tr>
+    <td>&nbsp;&nbsp;policyQualifiers</td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>&nbsp;&nbsp;&nbsp;&nbsp;PolicyQualifierId</td>
+    <td>OID</td>
+  </tr>
+  <tr>
+    <td>&nbsp;&nbsp;&nbsp;&nbsp;Qualifier </td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;CPSuri </td>
+    <td>IA5String</td>
+  </tr>
+  <tr>
+    <td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;UserNotice </td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;SEQUENCE </td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;ExplicitText</td>
+    <td>BMPString </td>
+  </tr>
+  <tr>
+    <td rowspan="3">5</td>
+    <td>Basic Constraints</td>
+    <td></td>
+    <td rowspan="3">Subject Type=CA<br>Path Length Constraint=0</td>
+  </tr>
+  <tr>
+    <td>&nbsp;&nbsp;cA </td>
+    <td>TRUE</td>
+  </tr>
+  <tr>
+    <td>&nbsp;&nbsp;pathLenConstraint</td>
+    <td>INTEGER</td>
+  </tr>
+  <tr>
+    <td>6</td>
+    <td>Extended Key Usage</td>
+    <td>OID</td>
+    <td>타임스탬프 (1.3.6.1.5.5.7.3.8)</td>
+  </tr>
+  <tr>
+    <td rowspan="4">7</td>
+    <td>CrlDistributionPoint</td>
+    <td></td>
+    <td rowspan="4">[1]CRL Distribution Point<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Distribution Point Name:<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Full Name:<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;URL=http://root-ca.cert.toss.im/crl/toss_crl_dp0000.crl </td>
+  </tr>
+  <tr>
+    <td>&nbsp;&nbsp;distributionPoint</td>
+    <td>DistributionPointName</td>
+  </tr>
+  <tr>
+    <td>&nbsp;&nbsp;reasons</td>
+    <td>ReasongFlags</td>
+  </tr>
+  <tr>
+    <td>&nbsp;&nbsp;cRLIssuer</td>
+    <td>GeneralNames</td>
   </tr>
 </tbody>
 </table>
