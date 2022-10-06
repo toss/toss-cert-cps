@@ -1,8 +1,8 @@
-# 토스 전자서명인증업무준칙 Version 1.2.6
+# 토스 전자서명인증업무준칙 Version 1.2.7
 
-공고일: 2022. 09. 14.
+공고일: 2022. 10. 06.
 
-시행일: 2022. 09. 15.
+시행일: 2022. 10. 07.
 
 # 1 소개
 
@@ -16,7 +16,9 @@
 
 ### 1.1.2 전자서명인증체계
 
-전자서명인증에 관한 정책의 수립, 시행 및 감독은 과학기술정보통신부가 관장하고 있으며, 회사는 전자서명인증체계의 안전하고 신뢰성 있는 운영을 위한 정책의 수립ㆍ시행 및 감독하는 기관으로서 최상위인증기관(Root CA), 인증기관(CA)으로 전자서명인증체계를 구성하여 관리ㆍ감독합니다.
+전자서명인증에 관한 정책의 수립, 시행 및 감독은 과학기술정보통신부가 관장하고 있으며, 회사는 전자서명인증체계의 안전하고 신뢰성 있는 운영을 위해 정책을 수립ㆍ시행하고 감독합니다.
+
+회사는 다음과 같이 최상위인증기관(Root CA) 및 인증기관(CA)을 운영합니다.
 
 1. 토스 최상위인증기관(Toss Root CA)
     - 안전한 전자서명 인증관리체계의 구축·운영
@@ -49,6 +51,23 @@
   </tr>
 </thead>
 <tbody>
+  <tr>
+    <td>1.2.7</td>
+    <td>2022. 10. 06.</td>
+    <td>
+    - 부칙 추가<br>
+    - 1.1.2 전자서명인증체계 내용 보완<br>
+    - 1.3.1.2 회사의 책임 및 의무사항 내용 보완<br>
+    - 1.3.2.1 등록대행기관의 책임 및 의무사항, 1.3.3.1 가입자의 책임 및 의무사항, 1.3.4.1 이용자의 책임 및 의무사항 내용 보완<br>
+    - 5.1.1 장소 위치 및 구성 내용 보완<br>
+    - 5.2.1 신뢰할 수 있는 역활(Trusted Roles) 내용 보완<br>
+    - 5.2.2 업무별 수행인 인원 내용 보완<br>
+    - 9.2.1 배상책임, 9.2.2 배상책임 제한, 9.2.3 가입자 및 이용자의 배상책임 내용 보완<br>
+    - 9.4.3 개인정보 제외 기준 내용 보완<br>
+    - 9.13 분쟁 해결 내용 보완<br>
+    - 부록 내용 보완<br>
+    </td>
+  </tr>
    <tr>
      <td>1.2.6</td>
      <td>2022. 09. 15.</td>
@@ -98,10 +117,10 @@
     - 1.4.2 인증서 이용범위 및 용도 내용 보완<br>
     - 3.2.3 개인 신원확인 내용 보완<br>
     - 3.3 인증서 갱신발급·재발급 및 변경 시 신원확인 내용 보완<br>
-    - 4.6 인증서 갱신발급 내용 보완<br> 
+    - 4.6 인증서 갱신발급 내용 보완<br>
     - 4.7 인증서 재발급 내용 보완<br>
-    - 5.5.1 보존되는 기록의 유형 내용 보완<br> 
-    - 부록 내용 보완 <br>  
+    - 5.5.1 보존되는 기록의 유형 내용 보완<br>
+    - 부록 내용 보완 <br>
     - 문서 전반적인 오탈자 수정 및 내용 보완<br>
     </td>
   </tr>
@@ -272,7 +291,7 @@
     - 준칙의 제·개정
     - 기타 전자서명인증업무 수행 관련 정보 등
 3. 회사는 회사의 전자서명생성정보를 신뢰할 수 있는 소프트웨어나 하드웨어 등을 이용하여 안전한 방법으로 생성하며, 생성된 회사의 전자서명생성정보가 분실·훼손 또는 도난·유출되지 않도록 안전하게 관리합니다.
-4. 회사는 가입자가 본인의 전자서명생성정보를 안전하게 생성ㆍ저장할 수 있도록 신뢰할 수 있는 암호화 모듈 및 보안 기술 규격 등을 적용하여 서비스를 제공합니다. 회사는 신뢰할 수 있는 인증을 획득한 암호화 모듈 및 보안 기술 규격을 적용하여 서비스를 제공하는 것을 원칙으로 합니다. 만약 인증이 없는 암호화 모듈 또는 기술 규격을 적용하는 경우, 회사는 안전성을 확보하기 위해 충분한 기술적 검증 또는 조치를 취하며, 이에 대해 책임을 부담합니다.
+4. 회사는 가입자가 본인의 전자서명생성정보를 안전하게 생성ㆍ저장할 수 있도록 신뢰할 수 있는 암호화 모듈 및 보안 기술 규격 등을 적용하여 서비스를 제공합니다. 회사는 신뢰할 수 있는 인증을 획득한 암호화 모듈 및 보안 기술 규격을 적용하여 서비스를 제공하는 것을 원칙으로 합니다. 만약 인증이 없는 암호화 모듈 또는 기술 규격을 적용하는 경우, 회사는 안전성을 확보하기 위해 충분한 기술적 검증 또는 조치를 취합니다.
 5. 회사는 가입자의 신청이 있는 경우에만 가입자의 전자서명생성정보를 보관하며, 이 경우 가입자의 전자서명생성정보를 안전하게 전송ㆍ보관할 수 있도록 신뢰할 수 있는 보안 기술 규격 등을 적용합니다. 회사는 가입자의 신청에 의하여 가입자의 전자서명생성정보를 보관하는 경우 해당 가입자의 동의없이 이를 이용하거나 유출하지 않습니다.
 6. 회사는 인증기관으로서 안전하게 생성한 전자서명생성정보로 발급한 가입자의 인증서에 대해 그 내용이 신청등록된 사실과 오차가 없다는 것을 확인합니다.
 7. 회사는 회사의 전자서명생성정보의 분실·훼손 또는 도난·유출 등 인증서의 신뢰성이나 유효성에 영향을 미치는 사유가 발생한 사실을 인지하는 경우 해당 사실을 홈페이지 또는 앱에 즉시 공고하며, 해당 전자서명생성정보로 발급한 가입자 인증서를 폐지하고 이를 가입자에게 통보합니다. 또한 전자서명인증업무의 신뢰성·유효성을 확보할 수 있는 대책을 강구합니다.
@@ -300,7 +319,7 @@
 4. 인증서 발급안내: 등록대행기관은 가입자가 신속하고 정확하게 인증서를 발급받을 수 있도록 제반 편의를 제공합니다.
 5. 가입자 정보의 보호: 등록대행기관은 개인정보 보호법 및 정보통신망 이용촉진 및 정보보호 등에 관한 법률(이하 "정보통신망법"이라 함)에 따라, 등록대행업무 수행 중 취득한 가입자의 개인정보를 보호하고 자료에 대한 보안을 유지할 의무가 있습니다.
 6. 이용약관 고지: 등록대행기관은 인증서를 발급하기 전에 인증서의 이용범위, 전자서명의 효력 등에 대한 이용약관을 가입자에게 알립니다.
-7. 책임과 배상: 등록대행기관은 본 인증업무준칙 상의 의무를 위반함으로써 회사, 가입자, 또는 이용자에게 손해를 입힌 경우 그 손해에 대해 배상하여야 할 책임이 있습니다.
+7. 책임과 배상: 등록대행기관은 본 인증업무준칙 상의 의무를 위반함으로써 회사, 가입자, 또는 이용자에게 손해를 입히지 않아야 합니다.
 
 #### 1.3.2.2 등록대행기관 목록
 
@@ -319,11 +338,6 @@
     - 가입자 정보 변경 등
 2. 인증서의 용도 내 사용: 가입자는 정당한 이용범위 및 용도에 맞게 인증서를 사용하여야 합니다. 그리고 인증서를 사용하여 전자서명을 제공할 때에는, 당해 인증서에 포함된 전자서명검증정보에 합치하는 전자서명생성정보를 사용하여야 합니다.
 3. 전자서명생성정보 안전조치: 가입자는 전자서명생성정보가 분실·훼손 또는 도난·유출되었거나 안전하지 않다고 인지하는 경우, 지체 없이 회사 및 등록대행기관에 관련사실을 통보하여 회사가 해당 인증서를 폐지할 수 있도록 협조하여야 합니다.
-4. 회사의 면책보장: 가입자는 인증서 사용에 있어 다음의 사유로 인하여 발생되는 모든 책임과 비용에 대하여 회사의 면책을 보장합니다.
-    - 가입자가 사실과 다르게 제공한 정보
-    - 가입자가 태만 또는 고의로 제공하지 않은 변경된 정보
-    - 가입자의 전자서명생성정보 관리 부주의(정보 노출, 분실, 변조 등)
-5. 배상책임: 가입자는 인증서 사용과 관련하여 가입자의 고의 또는 과실로 회사 또는 등록대행기관에게 손해를 입힌 경우 그 손해를 배상해야 합니다.
 
 ### 1.3.4 이용자
 
@@ -333,12 +347,11 @@
 
 이용자는 다음과 같은 책임과 의무를 가집니다.
 
-1. 인증서의 용도 내 사용: 이용자는 회사가 가입자에게 발급한 인증서의 이용목적 및 이용범위(제한 포함)를 확인 및 이해하여야 하며, 이용자의 과실로 인한 손해는 이용자가 책임져야 합니다.
+1. 인증서의 용도 내 사용: 이용자는 회사가 가입자에게 발급한 인증서의 이용범위(제한 포함) 및 용도에 맞게 인증서를 이용해야 합니다.
 2. 인증서의 유효성 확인: 이용자는 인증서 기재사항 등에 의하여 전자서명의 진위여부를 확인하기 위하여 다음의 조치를 취하여야 합니다.
     - 인증서 유효 여부의 확인
     - 인증서의 만료 또는 폐지 여부의 확인
     - 인증서의 이용범위 또는 용도를 제한하는 경우 이에 관한 사항의 확인
-3. 배상책임: 이용자는 인증서 사용과 관련하여 이용자의 고의 또는 과실로 회사 또는 가입자에게 손해를 입힌 경우 회사 또는 가입자에게 그 손해를 배상해야 합니다.
 
 ### 1.3.5 기타 관련자
 
@@ -393,7 +406,7 @@
     전자서명 및 본인확인 관련 제반업무<br>
     - 금융, 공공, 정부민원 전자서명 관련 업무<br>
     - 기타 회사 또는 이용기관 제공 서비스 전자서명 관련 업무<br>
-    - 본인확인 관련 제반업무<br> 
+    - 본인확인 관련 제반업무<br>
     </td>
     <td>발급일로부터 3년</td>
   </tr>
@@ -820,7 +833,7 @@
 4. 가입자가 서비스 약관 및 운영정책 또는 준칙을 위반하였음을 인지한 경우
 5. 인증서 정보 중 중요한 변경 사항이 있음을 인지한 경우
 6. 인증서가 준칙에 명시한 정책, 절차 및 요구사항에 따라 발급되지 않았거나 서비스 약관 제9조에 따른 이용제한 사유가 있음을 인지한 경우
-7. 가입자가 고객센터를 통해 폐지를 요청하는 경우
+7. 가입자가 가입자 신원확인 및 요청 처리 담당자에게 폐지를 요청하는 경우
 
 #### 4.9.1.2 인증기관 인증서 폐지 사유
 
@@ -945,6 +958,11 @@ OCSP 응답 메시지는 실시간으로 갱신되며 유효기간은 지정되�
 
 회사의 전자서명인증업무를 위한 인증서 발급 및 전자서명 처리 시스템은 두 곳의 데이터센터에 이중화 구성되어 있으며, 전자서명인증업무와 무관한 다른 시스템과는 물리적으로 분리되어 있습니다.
 
+회사의 데이터센터의 주소는 다음과 같습니다.
+
+1. 서울시 마포구 상암동 월드컵북로 424, LGCNS 상암IT센터
+2. 경기 안양시 동안구 시민대로327번길 29, 평촌메가센터
+
 ### 5.1.2 물리적 접근 통제
 
 1. 회사의 전자서명인증업무 관련 설비가 위치한 데이터센터는 외부인의 침입이나 불법적 접근 등의 물리적 위협으로부터 안전하게 보호되고 있습니다.
@@ -990,6 +1008,7 @@ OCSP 응답 메시지는 실시간으로 갱신되며 유효기간은 지정되�
 1. 인증기관 정책 관리자
     1. 인증업무준칙, 사업연속성계획, 재해복구계획 등의 제정 및 개정을 담당합니다.
     1. 전자서명인증업무 담당자에 대한 정기적 교육을 수행합니다.
+    1. 최상위인증기관 정책 관리자, 인증기관 정책 관리자로 구분됩니다.
 
 1. 보안관리자
     1. 전자서명인증업무의 보호조치를 이행합니다.
@@ -998,6 +1017,7 @@ OCSP 응답 메시지는 실시간으로 갱신되며 유효기간은 지정되�
     1. 인증서 신규 발급 및 관리에 대한 기록을 주기적으로 검토합니다.
     1. 전자서명인증시스템의 감사 기록을 주기적으로 검토합니다.
     1. 연간 재해복구 훈련 및 키 검증 테스트를 수행합니다.
+    1. 전자서명인증업무 관련 법률, 본 준칙 등의 준수 여부를 감시합니다.
 
 1. 인증기관 키 관리자
     1. 하드웨어 보안 모듈의 입고·보관·초기화 등 관리 업무를 수행합니다.
@@ -1048,6 +1068,7 @@ OCSP 응답 메시지는 실시간으로 갱신되며 유효기간은 지정되�
     1. 전자서명인증시스템에 사용되는 네트워크를 관리합니다.
     1. 시설 및 장비에 필요한 유지보수 업무를 관리합니다.
     1. 공고설비에 최상위인증기관 및 인증기관 인증서를 공고하고 관리합니다.
+    1. 최상위인증기관 운영자, 인증기관 운영자로 구분됩니다.
 
 1. IT 운영자
     1. 인증센터의 시설 및 장비를 운영하고 관리합니다.
@@ -1055,7 +1076,7 @@ OCSP 응답 메시지는 실시간으로 갱신되며 유효기간은 지정되�
 
 ### 5.2.2 업무별 수행 인원
 
-인증기관 키 생성, 백업, 저장, 복구, 서명 키 활성화는 최소 3인 이상이 수행합니다.
+전자서명생성정보 생성, 백업, 저장, 복구, 서명 키 활성화는 최소 3인 이상이 수행합니다.
 
 ### 5.2.3 역할별 신원확인 및 인증
 
@@ -1862,23 +1883,17 @@ RSA 키의 경우 회사는 RSA 키의 공개 지수값이 3 이상의 홀수임
 
 ### 9.2.1 배상책임
 
-회사는 법 제20조에 따라 회사가 전자서명인증업무의 수행과 관련하여 가입자 또는 이용자에게 손해를 입힌 경우에는 그 손해를 배상합니다. 다만, 회사의 고의 또는 과실이 없는 경우 그 배상책임을 부담하지 않습니다.
+1. 법 제20조에 의거하여 회사가 전자서명인증업무의 수행과 관련하여 가입자 또는 이용자에게 손해를 입힌 경우에는 그 손해를 배상합니다.
+2. 회사는 신뢰할 수 있는 인증을 획득한 암호화 모듈 및 보안 기술 규격을 적용하여 서비스를 제공하는 것을 원칙으로 합니다. 만약 안전하지 않은 암호모듈 또는 암호알고리즘 사용으로 가입자 또는 이용자에게 손해를 입힌 경우 회사가 책임집니다.
+
 
 ### 9.2.2 배상책임 제한
 
-1. 회사는 아래 사항 및 회사가 발급한 인증서 및 인증업무와 관련하여 발생하는 사항 외의 것에 대하여 책임을 부담하지 않습니다.
-    1. 이용자의 고의 또는 과실로 인하여 발생한 손해
-    2. 이용자가 사실과 다르게 제공한 정보로 인한 손해
-    3. 이용자가 변경된 정보를 제공하지 아니하여 발생한 손해
-    4. 본 준칙에서 정하지 아니한 방법으로 인증서가 사용 또는 임의로 변경되어 발생한 손해
-    5. 디도스(DDoS)공격, IDC장애, 회선장애, 폭동, 전쟁, 정부(지방자치단체포함)의 규제 또는 사회통념상 이에 준하는 불가항력적인 사유 등으로 인하여 발생한 손해
-    6. 이용자 시스템 장애, 통신경로 장애 및 예상치 못한 기술적 장애 등으로 발생한 손해
-    7. 인증업무와 관련하여 직접적으로 발생하지 아니한 간접 또는 확대손해
-    8. 기타 회사의 고의 또는 과실없이 발생한 손해
+법 제20조에 의거하여 회사는 고의 또는 과실이 없음을 입증하면 그 배상책임을 부담하지 않습니다.
 
 ### 9.2.3 가입자 및 이용자의 배상책임
 
-가입자 및 이용자는 인증서 사용과 관련하여 준칙 또는 회사의 정책을 위반하여 회사 또는 기타 제3자에게 손해를 입힌 경우 그 손해를 배상해야 합니다.
+해당사항 없음
 
 ## 9.3 영업비밀
 
@@ -1910,7 +1925,7 @@ RSA 키의 경우 회사는 RSA 키의 공개 지수값이 3 이상의 홀수임
 
 ### 9.4.3 개인정보 제외 기준
 
-'9.4.1 개인정보 보호 계획' 항목을 참조합니다.
+해당사항 없음
 
 ### 9.4.4 개인정보 보호의 책임
 
@@ -1968,12 +1983,11 @@ RSA 키의 경우 회사는 RSA 키의 공개 지수값이 3 이상의 홀수임
 
 ## 9.8 보험의 보상 범위
 
-회사는 법 제20조, 동법 시행령 제11조에 따라 가입자 또는 이용자에 대한 손해배상을 담보하기 위하여 보험에 가입하고 있으며, 당해 보험계약에서 정한 배상한도인 건당 14억원, 총 한도보상액 14억원의 범위 내에서 전자서명인증업무의 수행과 관련하여 회사의 고의 또는 과실로 발생한 사고로 인한 가입자 및 이용자의 손해를 배상합니다.
+회사는 법 제20조, 동법 시행령 제11조에 따라 가입자 또는 이용자에 대한 손해를 배상하기 위하여 보험에 가입하고 있으며, 보험의 배상 한도는 14억 원입니다.
 
 ## 9.9 배상 한계
 
-1. 회사의 고의 또는 과실이 없는 경우 배상책임이 면제될 수 있습니다.
-2. 보험계약 상의 배상한도를 초과하여 손해가 발생한 경우에는 당사자간의 합의에 의하여 초과 분에 대한 손해를 배상하며, 합의가 이루어지지 않을 경우에는 법원의 판결에 따릅니다.
+회사는 법 제20조에 의거하여 고의 또는 과실이 없음을 입증하면 그 배상책임을 부담하지 않습니다.
 
 ## 9.10 준칙의 효력
 
@@ -2014,7 +2028,7 @@ RSA 키의 경우 회사는 RSA 키의 공개 지수값이 3 이상의 홀수임
 
 ## 9.13 분쟁 해결
 
-1. 전자서명인증체계 관련자에게 전달되는 문서(또는 전자문서)가 법적 효력을 갖기 위해서는 다음과 같은 요건을 만족해야 합니다.
+1. 전자서명인증체계 관련자에게 전달되는 문서(또는 전자문서)가 법적 효력을 갖기 위해서는 다음과 같은 요건을 만족해야 합니다. 단, 전자문서는 전자적 형태로 되어 있다는 이유만으로 법적 효력이 부인되지 않습니다.
     1. 인증서에 기초한 전자서명을 포함하며, 전자서명은 가입자의 전자서명생성정보 지배·관리 하에 이루어질 것
     2. 전자서명에 사용된 인증서가 유효한 상태이며, 효력 정지 또는 폐지 상태가 아닐 것
 2. 전자서명에 관한 분쟁의 조정을 받으려는 전자서명인증체계 관련자는 법 제22조에 따라 전자문서 및 전자거래 기본법 제32조에 따른 전자문서ㆍ전자거래분쟁조정위원회에 조정을 신청할 수 있습니다.
@@ -2036,11 +2050,377 @@ RSA 키의 경우 회사는 RSA 키의 공개 지수값이 3 이상의 홀수임
 
 ___
 
+## 부칙
+
+이 준칙은 2022년 9월 30일 부터 시행합니다.
+___
+
 # 부록 A 프로파일
 
-## A.1 가입자 인증서 프로파일
+## A.1 최상위인증기관 인증서 프로파일
 
 ### A.1.1 기본필드
+
+<table>
+<thead>
+  <tr>
+    <th># </th>
+    <th>필드명 </th>
+    <th>ASN.1 type </th>
+    <th>설명</th>
+  </tr>
+</thead>
+<tbody>
+  <tr>
+    <td>1</td>
+    <td>Version </td>
+    <td>INTEGER </td>
+    <td>V3</td>
+  </tr>
+  <tr>
+    <td>2</td>
+    <td>Serial Number </td>
+    <td>INTEGER </td>
+    <td>고유일련번호</td>
+  </tr>
+  <tr>
+    <td>3</td>
+    <td>Signature</td>
+    <td>OID</td>
+    <td>1.2.840.113549.1.1.11<br>(sha256WithRSAEncryption)</td>
+  </tr>
+  <tr>
+    <td rowspan="3">4</td>
+    <td>Issuer</td>
+    <td></td>
+    <td rowspan="3">CN=Toss Root CA1,<br>OU=Toss Cert<br>O=Viva Republica Inc<br>C=KR</td>
+  </tr>
+  <tr>
+    <td>&nbsp;&nbsp;type </td>
+    <td>OID</td>
+  </tr>
+  <tr>
+    <td>&nbsp;&nbsp;value </td>
+    <td>printableString 또는 utf8String</td>
+  </tr>
+  <tr>
+    <td rowspan="3">5</td>
+    <td>Validity</td>
+    <td></td>
+    <td>20년</td>
+  </tr>
+  <tr>
+    <td>&nbsp;&nbsp;notBefore </td>
+    <td>UTCTime</td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>&nbsp;&nbsp;notAfter </td>
+    <td>UTCTime</td>
+    <td></td>
+  </tr>
+  <tr>
+    <td rowspan="3">6</td>
+    <td>Subject</td>
+    <td></td>
+    <td rowspan="3">CN=Toss Root CA1,<br>OU=Toss Cert,<br>O=Viva Republica Inc,<br>C=KR</td>
+  </tr>
+  <tr>
+    <td>&nbsp;&nbsp;type</td>
+    <td>OID</td>
+  </tr>
+  <tr>
+    <td>&nbsp;&nbsp;value</td>
+    <td>printableString 또는 utf8String</td>
+  </tr>
+  <tr>
+    <td rowspan="3">7</td>
+    <td>Subject Public Key Info</td>
+    <td></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>&nbsp;&nbsp;algorithm </td>
+    <td>OID </td>
+    <td>RSA (4096 Bits)</td>
+  </tr>
+  <tr>
+    <td>&nbsp;&nbsp;subjectPublicKey </td>
+    <td>BIT STRING</td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>8</td>
+    <td>Extensions </td>
+    <td>Extensions </td>
+    <td>확장필드 참고</td>
+  </tr>
+</tbody>
+</table>
+
+### A.1.2 확장필드
+
+<table>
+<thead>
+  <tr>
+    <th># </th>
+    <th>필드명 </th>
+    <th>ASN.1 type </th>
+    <th>설명</th>
+  </tr>
+</thead>
+<tbody>
+  <tr>
+    <td>1</td>
+    <td>Subject Key Identifier</td>
+    <td>OCTET STRING</td>
+    <td>subjectPublicKey의 hash 값</td>
+  </tr>
+  <tr>
+    <td>2</td>
+    <td>Key Usage </td>
+    <td>BIT STRING</td>
+    <td>Digital Signature, Non-Repudiation, Certificate Signing, Off-line CRL Signing, CRL Signing (c6)</td>
+  </tr>
+  <tr>
+    <td rowspan="3">3</td>
+    <td>Basic Constraints</td>
+    <td></td>
+    <td rowspan="3">Subject Type=CA</td>
+  </tr>
+  <tr>
+    <td>&nbsp;&nbsp;cA </td>
+    <td>TRUE</td>
+  </tr>
+  <tr>
+    <td>&nbsp;&nbsp;pathLenConstraint</td>
+    <td>INTEGER</td>
+  </tr>
+</tbody>
+</table>
+
+## A.2 인증기관 인증서 프로파일
+
+### A.2.1 기본필드
+
+<table>
+<thead>
+  <tr>
+    <th># </th>
+    <th>필드명 </th>
+    <th>ASN.1 type </th>
+    <th>설명</th>
+  </tr>
+</thead>
+<tbody>
+  <tr>
+    <td>1</td>
+    <td>Version </td>
+    <td>INTEGER </td>
+    <td>V3</td>
+  </tr>
+  <tr>
+    <td>2</td>
+    <td>Serial Number </td>
+    <td>INTEGER </td>
+    <td>고유일련번호</td>
+  </tr>
+  <tr>
+    <td>3</td>
+    <td>Signature</td>
+    <td>OID</td>
+    <td>1.2.840.113549.1.1.11<br>(sha256WithRSAEncryption)</td>
+  </tr>
+  <tr>
+    <td rowspan="3">4</td>
+    <td>Issuer</td>
+    <td></td>
+    <td rowspan="3">CN=Toss Root CA1,<br>OU=Toss Cert,<br>O=Viva Republica Inc,<br>C=KR</td>
+  </tr>
+  <tr>
+    <td>&nbsp;&nbsp;type </td>
+    <td>OID</td>
+  </tr>
+  <tr>
+    <td>&nbsp;&nbsp;value </td>
+    <td>printableString 또는 utf8String</td>
+  </tr>
+  <tr>
+    <td rowspan="3">5</td>
+    <td>Validity</td>
+    <td></td>
+    <td>10년</td>
+  </tr>
+  <tr>
+    <td>&nbsp;&nbsp;notBefore </td>
+    <td>UTCTime</td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>&nbsp;&nbsp;notAfter </td>
+    <td>UTCTime</td>
+    <td></td>
+  </tr>
+  <tr>
+    <td rowspan="3">6</td>
+    <td>Subject</td>
+    <td></td>
+    <td rowspan="3">CN=Toss CA1,<br>OU=Toss Cert,<br>O=Viva Republica Inc,<br>C=KR</td>
+  </tr>
+  <tr>
+    <td>&nbsp;&nbsp;type</td>
+    <td>OID</td>
+  </tr>
+  <tr>
+    <td>&nbsp;&nbsp;value</td>
+    <td>printableString 또는 utf8String</td>
+  </tr>
+  <tr>
+    <td rowspan="3">7</td>
+    <td>Subject Public Key Info</td>
+    <td></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>&nbsp;&nbsp;algorithm </td>
+    <td>OID </td>
+    <td>RSA (4096 Bits)</td>
+  </tr>
+  <tr>
+    <td>&nbsp;&nbsp;subjectPublicKey </td>
+    <td>BIT STRING</td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>8</td>
+    <td>Extensions </td>
+    <td>Extensions </td>
+    <td>확장필드 참고</td>
+  </tr>
+</tbody>
+</table>
+
+### A.2.2 확장필드
+
+<table>
+<thead>
+  <tr>
+    <th># </th>
+    <th>필드명 </th>
+    <th>ASN.1 type </th>
+    <th>설명</th>
+  </tr>
+</thead>
+<tbody>
+  <tr>
+    <td rowspan="4">1</td>
+    <td>Authority Key Identifier</td>
+    <td></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>&nbsp;&nbsp;KeyIdentifier</td>
+    <td>OCTET STRING</td>
+    <td>최상위인증기관 인증서의 Subject Key Identifier</td>
+  </tr>
+  <tr>
+    <td>&nbsp;&nbsp;authorityCertIssuer</td>
+    <td>GeneralNames</td>
+    <td>최상위인증기관 인증서의 Subject</td>
+  </tr>
+  <tr>
+    <td>&nbsp;&nbsp;authorityCertSerialNumber </td>
+    <td>INTEGER</td>
+    <td>최상위인증기관 인증서의 Serial Number</td>
+  </tr>
+  <tr>
+    <td>2</td>
+    <td>Subject Key Identifier</td>
+    <td>OCTET STRING</td>
+    <td>subjectPublicKey의 hash 값</td>
+  </tr>
+  <tr>
+    <td>3</td>
+    <td>Key Usage </td>
+    <td>BIT STRING</td>
+    <td>Digital Signature, Non-Repudiation, Certificate Signing, Off-line CRL Signing, CRL Signing (c6)</td>
+  </tr>
+  <tr>
+    <td rowspan="9">4</td>
+    <td>Certificate Policy</td>
+    <td></td>
+    <td rowspan="9">[1]Certificate Policy:<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Policy Identifier=모든 발급 정책<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[1,1]Policy Qualifier Info:<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Policy Qualifier Id=CPS<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Qualifier:<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;http://ca.cert.toss.im/cps.html<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[1,2]Policy Qualifier Info:<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Policy Qualifier Id=사용자 알림<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Qualifier:<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Notice Text=This is Toss certificate</td>
+  </tr>
+  <tr>
+    <td>&nbsp;&nbsp;policyIdentifier </td>
+    <td>OID</td>
+  </tr>
+  <tr>
+    <td>&nbsp;&nbsp;policyQualifiers</td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>&nbsp;&nbsp;&nbsp;&nbsp;PolicyQualifierId</td>
+    <td>OID</td>
+  </tr>
+  <tr>
+    <td>&nbsp;&nbsp;&nbsp;&nbsp;Qualifier </td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;CPSuri </td>
+    <td>IA5String</td>
+  </tr>
+  <tr>
+    <td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;UserNotice </td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;SEQUENCE </td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;ExplicitText</td>
+    <td>BMPString </td>
+  </tr>
+  <tr>
+    <td rowspan="3">5</td>
+    <td>Basic Constraints</td>
+    <td></td>
+    <td rowspan="3">Subject Type=CA<br>Path Length Constraint=0</td>
+  </tr>
+  <tr>
+    <td>&nbsp;&nbsp;cA </td>
+    <td>TRUE</td>
+  </tr>
+  <tr>
+    <td>&nbsp;&nbsp;pathLenConstraint</td>
+    <td>INTEGER</td>
+  </tr>
+  <tr>
+    <td rowspan="4">6</td>
+    <td>CrlDistributionPoint</td>
+    <td></td>
+    <td rowspan="4">[1]CRL Distribution Point<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Distribution Point Name:<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Full Name:<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;URL=http://root-ca.cert.toss.im/crl/toss_crl_dp0000.crl </td>
+  </tr>
+  <tr>
+    <td>&nbsp;&nbsp;distributionPoint</td>
+    <td>DistributionPointName</td>
+  </tr>
+  <tr>
+    <td>&nbsp;&nbsp;reasons</td>
+    <td>ReasongFlags</td>
+  </tr>
+  <tr>
+    <td>&nbsp;&nbsp;cRLIssuer</td>
+    <td>GeneralNames</td>
+  </tr>
+</tbody>
+</table>
+
+## A.3 가입자 인증서 프로파일
+
+### A.3.1 기본필드
 
 <table>
 <thead>
@@ -2139,7 +2519,7 @@ ___
 </tbody>
 </table>
 
-### A.1.2 확장필드
+### A.3.2 확장필드
 
 <table>
 <thead>
@@ -2257,9 +2637,9 @@ ___
 </tbody>
 </table>
 
-## A.2 인증서 유효성 확인 서비스(OCSP) 인증서 프로파일
+## A.4 인증서 유효성 확인 서비스(OCSP) 인증서 프로파일
 
-### A.2.1 기본필드
+### A.4.1 기본필드
 
 <table>
 <thead>
@@ -2358,7 +2738,7 @@ ___
 </tbody>
 </table>
 
-### A.2.2 확장필드
+### A.4.2 확장필드
 
 <table>
 <thead>
@@ -2482,9 +2862,9 @@ ___
 </tbody>
 </table>
 
-## A.3 시점확인 서비스(TSA) 인증서 프로파일
+## A.5 시점확인 서비스(TSA) 인증서 프로파일
 
-### A.3.1 기본필드
+### A.5.1 기본필드
 
 <table>
 <thead>
@@ -2583,7 +2963,7 @@ ___
 </tbody>
 </table>
 
-### A.3.2 확장필드
+### A.5.2 확장필드
 
 <table>
 <thead>
